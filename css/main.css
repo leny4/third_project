@@ -8,14 +8,19 @@
 }
 
 p{
-    color: gray;
+    color: #bfb3b3;
 }
 
 
 
-
+header{
+    text-align: center;
+}
 
 #firsth3{
+    background-color:#03191ad9;
+    color:white;
+    padding: 5%;
     
 }
 
