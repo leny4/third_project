@@ -15,42 +15,45 @@
         <h3 id="firsth3">THE CODE REVIEW</h3>
         <h3>Singup for our newsletter</h3>
         <p>Get the latest news on how your code is doing right in your inbox</p>
-        <hr>
-        <hr>
+       <hr>
+       <hr>
     </header>
     
     
     <section>
 
-    <h3>Contact Inforamtion</h3>
-
     <form action="index.html" method="POST">
-
-    
+        
+<fieldset>
+     <legend>Contact Inforamtion</legend>
+<div></div>
     <label for="name">Full Name</label>
     <input type="text" name="user_name" id="name">
+</div>
 
 
 
-
-    <br><br>
+<div>   
     <label for="email">Email Address</label>
     <input type="email" name="user_email" id="email">
+</div>
 
-
-    <br><br>
+<div>   
     <label for="phone">Phone Number</label>
     <input type="tel" name="user_phone" id="phone">
-
-    <br><br>
+</div>
+   
+<div>
     <label for="street">Street Address</label>
     <input type="text" name="user_street" id="street">
+</div>
 
-    <br><br>
+<div>
     <label for="city">City</label>
     <input type="text" name="user_cty" id="city">
-
-    <br><br>
+</div>
+ 
+<div>
     <label for="continent">Continent</label>
     <select id="continent" name="user_continent">
             <optgroup label="America">
@@ -69,45 +72,60 @@
             <option value="australia">Australia</option>
             </optgroup>
           </select>
+</div>
 
-
-          <br><br>
+<div>         
           <label for="zipcode">Zip Code</label>
           <input type="number" name="user_zipcode" id="zipcode">
-          <br> <br>
-          <hr>
+</div>         
+</fieldset>
+<hr>
 
-          <h3>Newsletter</h3>
+<fieldset>
+          <legend>Newsletter</legend>
           <p>Select the newsletters you would like to recive</p>
-
+    <ul>
+                <li>      
           <input type="checkbox" id="firstbox" name="user_box">
           <label for="firstbox" class="light">HTML News</label>
-          <br><br>
-          
+                </li>
+               
+                <li>   
           <input type="checkbox" id="secondbox" name="user_box">
-          <label for="firstbox" class="light">CSS News</label>
-          <br><br>
+          <label for="secondbox" class="light">CSS News</label>
+                </li>
 
+                <li>
           <input type="checkbox" id="thirdbox" name="user_box">
           <label for="thirdbox" class="light">Javascript News</label>
-          <br><br>
+                </li>
+
+            </ul>
 
           <p>Newsletter format</p>
+          <ul>
+              <li>
           <input type="radio" id="buttonone" name="user_button">
-          <label for="button">HTML</label>
-          <br><br>
+          <label for="buttonone">HTML</label>
+              </li>   
 
+              <li>
           <input type="radio" id="buttontwo" name="user_button">
           <label for="buttontwo">Plain text</label>
-         <br><br>
+              </li>
 
-          <br<br>
+        <li>
           <label for="textarea">Other topics you'd like to hear about</label>
           <textarea name="textuser" id="textarea" cols="40" rows="5"></textarea>
-
-          <br><br>
+        </li>
+    </ul>  
+        
+        <p class="button">
           <button>Sing Up</button>
+        </p>
+           
 
+</fieldset>
     </form>
     </section>
   <br>
