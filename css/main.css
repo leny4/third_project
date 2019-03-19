@@ -1,0 +1,58 @@
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    font-family:'Merriweather', serif;
+    
+}
+
+p{
+    color: gray;
+}
+
+
+
+
+
+#firsth3{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#textarea{
+    margin-top:20px; 
+}
+
+@media (min-width: 768px){
+
+}
