@@ -26,7 +26,10 @@ h5{
 header{
     text-align: center;
 }
+legend{
 
+    margin-bottom: 5%;
+}
 
 #title{
     position: absolute;
